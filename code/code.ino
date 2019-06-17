@@ -1,6 +1,6 @@
 /**
  * 
- * Made by Luka Vinkešević in 2019. for University of Zagreb
+ * Made by Luka Vinkešević in 2019. for University of Zagreb,
  * Faculty of Electrical Engineering and Computing
  * 
 **/
