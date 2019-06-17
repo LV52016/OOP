@@ -937,6 +937,10 @@ public class Window extends JFrame {
 		scroll.getVerticalScrollBar().setValue(scroll.getVerticalScrollBar().getMaximum());
 	}
 
+	public boolean isAnalogInput(int id) {
+		return inAnalog[id].isSelected();
+	}
+
 	public void print(String text) {
 		if(status.getText().length() > 10000) status.setText("");
 
@@ -957,9 +961,5 @@ public class Window extends JFrame {
 		console.setSelectedIndex(1);
 		errors.setText(newLine + Reader.text[ERR] + " (" + timeText + "): " + message);
 		scrollToBottom(errorsScroll);
-	}
-
-	public boolean isAnalogInput(int id) {
-		return inAnalog[id].isSelected();
 	}
 }
