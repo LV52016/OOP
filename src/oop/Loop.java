@@ -46,7 +46,6 @@ public class Loop implements Runnable {
 					int id = Integer.parseInt(data.substring(1, 2));
 					int value = Integer.parseInt(data.substring(2));
 
-					Run.window.print("Arduino -> PC: " + data);
 					Run.window.fields[id].setValue(value);
 
 					Thread.sleep(delay);
