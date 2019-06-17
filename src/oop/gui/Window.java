@@ -958,4 +958,8 @@ public class Window extends JFrame {
 		errors.setText(newLine + Reader.text[ERR] + " (" + timeText + "): " + message);
 		scrollToBottom(errorsScroll);
 	}
+
+	public boolean isAnalogInput(int id) {
+		return inAnalog[id].isSelected();
+	}
 }
