@@ -15,7 +15,7 @@ public class Spinner extends JSpinner {
 
 		addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent e) {
-				if(Run.window.connected) Run.window.send(String.format("A%d%04d", id, getValue()), true, true);
+				if(Run.window.connected && !Run.window.isAnalogInput(id)) Run.window.send(String.format("A%d%04d", id, getValue()), true, true);
 			}
 		});
 	}
