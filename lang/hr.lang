@@ -1,0 +1,37 @@
+Grafičko sučelje za Java-Arduino komunikaciju
+Napravio Luka Vinkešević 2019. godine za Sveučilište u Zagrebu Fakultet elektrotehnike i računarstva.
+U redu
+Odustani
+Spoji se
+Odspoji se
+Ponovo skeniraj
+Spremi graf
+Putanja + ime:
+Serijski port
+Greške
+Jezik:
+Engleski
+Hrvatski
+Uključi/isključi kanal
+Kanal
+Prikaži mrežu:
+Mreža na vrhu:
+Ispuni graf
+Način rada: Analogni
+Način rada: Digitalni
+Očisti
+Nacrtaj
+Očisti konzolu
+Očisti greške
+Greška
+Neuspjelo postavljanje 'look and feel'-a!
+Neuspjelo spajanje s portom
+Neuspjelo odspajanje od porta
+Uređaj nije spojen s portom!
+Neuspjelo odgađanje trenutnog threada!
+Nema pronađenih portova!
+je zatvoren ili zauzet!
+Neuspjelo pretvaranje grafa u .png!
+Uspješno spajanje s portom
+Uspješno odspajanje od porta
+Graf uspješno spremljen u

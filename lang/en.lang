@@ -1,0 +1,37 @@
+﻿Graphical interface for Java-Arduino communication
+Made by Luka Vinkešević in 2019. for University of Zagreb, Faculty of Electrical Engineering and Computing.
+OK
+Cancel
+Connect
+Disconnect
+Rescan
+Save graph
+Path + name:
+Serial port
+Errors
+Language:
+English
+Croatian
+Enable/disable channel
+Channel
+Show grid:
+Grid on top:
+Fill graph
+Mode: Analog
+Mode: Digital
+Clear
+Redraw
+Clear console
+Clear errors
+Error
+Could not set look and feel!
+Cannot connect to port
+Cannot disconnect from port
+Not connected to any port!
+Cannot delay current thread!
+No available ports found!
+is closed or busy!
+Cannot export graph as .png!
+Connected to port
+Disconnected from port
+Graph saved to

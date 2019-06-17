@@ -1,0 +1,41 @@
+package oop.util.lang;
+
+public class LangText {
+	public static final int TITLE = 0;
+	public static final int RIGHTS = TITLE + 1;
+	public static final int OK = RIGHTS + 1;
+	public static final int CANCEL = OK + 1;
+	public static final int CONNECT = OK + 2;
+	public static final int DISCONNECT = OK + 3;
+	public static final int RESCAN = OK + 4;
+	public static final int EXPORT = OK + 5;
+	public static final int PATH = OK + 6;
+	public static final int STATUS = PATH + 1;
+	public static final int ERRORS = STATUS + 1;
+	public static final int LANGUAGE = ERRORS + 1;
+	public static final int ENGLISH = LANGUAGE + 1;
+	public static final int CROATIAN = LANGUAGE + 2;
+	public static final int ENABLED = LANGUAGE + 3;
+	public static final int CHANNEL = ENABLED + 1;
+	public static final int GRIDSHOW = ENABLED + 2;
+	public static final int GRIDONTOP = ENABLED + 3;
+	public static final int FILLED = ENABLED + 4;
+	public static final int ANALOG = FILLED + 1;
+	public static final int DIGITAL = ANALOG + 1;
+	public static final int CLEAR = DIGITAL + 1;
+	public static final int REDRAW = CLEAR + 1;
+	public static final int CLRSTS = CLEAR + 2;
+	public static final int CLRERR = CLEAR + 3;
+	public static final int ERR = CLRERR + 1;
+	public static final int ERROR1 = ERR + 1;
+	public static final int ERROR2 = ERR + 2;
+	public static final int ERROR3 = ERR + 3;
+	public static final int ERROR4 = ERR + 4;
+	public static final int ERROR5 = ERR + 5;
+	public static final int ERROR6 = ERR + 6;
+	public static final int ERROR7 = ERR + 7;
+	public static final int ERROR8 = ERR + 8;
+	public static final int PRINT1 = ERROR8 + 1;
+	public static final int PRINT2 = PRINT1 + 1;
+	public static final int PRINT3 = PRINT2 + 1;
+}
