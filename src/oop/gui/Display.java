@@ -41,7 +41,7 @@ public class Display extends JPanel {
 			yValues1[i] = -1;
 			yValues2[i] = -1;
 		}
-		
+
 		repaint();
 	}
 
@@ -82,7 +82,6 @@ public class Display extends JPanel {
 
 	public void paintComponent(Graphics graphics) {
 		Graphics2D g = (Graphics2D)graphics;
-
 		g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
 		drawBackground(g);
@@ -129,11 +128,14 @@ public class Display extends JPanel {
 
 		g.drawString("0", offset * 0.4f, height - 6);
 
-		for(int i = 1; i < 10; i++)
-			g.drawString("" + i, (int)(i * 20.6f + offset + gridStroke), height - 6);
+		int step = (getWidth() - offset) / Constants.DIVISIONS;
+		float hStep = 1.88f * (getHeight() - offset) / Constants.DIVISIONS;
 
-		for(int i = 1; i < 11; i++)
-			g.drawString("" + i, offset * 0.4f, height - offset - gridStroke - i * 21);
+		for(int i = 1; i < Constants.DIVISIONS; i++)
+			g.drawString(i + "", (int)(i * step + offset - gridStroke), height - 6);
+
+		for(int i = 1; i <= Constants.DIVISIONS / 2; i++)
+			g.drawString(i + "V", offset - 16, height - offset + gridStroke - i * hStep);
 	}
 
 	private void drawGrid(Graphics2D g) {
