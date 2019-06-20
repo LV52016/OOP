@@ -4,7 +4,7 @@ Made by Luka Vinkesevic in 2019. for Object Oriented Programming class
 from University of Zagreb, Faculty of Electrical Engineering and Computing.
 
 ### Description
-This project was made in C and Java using the [jSerialComm](https://github.com/Fazecast/jSerialComm) library.
+This project was made in *C* and *Java* using the [jSerialComm](https://github.com/Fazecast/jSerialComm) library.
 The goal of the project is to make communicating with the Arduino board easier and more graphical.
 
 ### Features
@@ -18,8 +18,8 @@ Everything is achieved using GUI, no coding knowledge is required.
 * saving graphs as .png image
 
 ### Requirements
-* Arduino Uno board
 * Arduino IDE ([arduino.cc](https://www.arduino.cc/en/Main/Software))
+* Arduino Uno board
 * Java ([java.com](https://www.java.com/en/download/))
 
 ### Usage
